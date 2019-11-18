@@ -6,6 +6,8 @@ nginx:stable-alpine
 
 https://medium.com/@ienienien2001/1-%E9%9A%A8%E6%89%8B%E5%AF%AB%E5%AF%AB-docker-5afe4232b48e
 
+https://medium.com/@ienienien2001/%E9%9A%A8%E6%89%8B%E5%AF%AB%E5%AF%AB-docker-2-edfd47aeac12
+
 ## ROOT(General PATH)
 
 /usr/share/nginx/html/project
