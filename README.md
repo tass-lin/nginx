@@ -9,11 +9,6 @@ nginx:stable-alpine
 ## CMD
 
 ```
-nginx -t
-nginx -s reload
-```
-
-```
 docker build -t foobar .
 
 docker run -d --name foobar -p 8080:8080  foobar
@@ -21,4 +16,11 @@ docker run -d --name foobar -p 8080:8080  foobar
 
 ```
 docker-compose up -d
+```
+
+```
+docker exec -it foobar ash
+
+nginx -t
+nginx -s reload
 ```
